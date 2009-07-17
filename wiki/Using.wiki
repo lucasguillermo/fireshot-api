@@ -33,11 +33,11 @@ http://screenshot-program.com/images/tool_button_fx.gif
 
 == Getting the library ==
 
-The library can be downloaded from http://
+The library can be downloaded from http://screenshot-program.com/downloads/fsapi.js
 
 == Getting the API Key ==
 
-The key is created for the web site domain and can be used only for this domain name. If you need the API working on more that one web site, you should create another keys. To create the key, please navigate to [http://sdf FireShot API Key creation] page, fill in the domain name and press "Create". Copy the key and follow to the next step.
+The key is created for the web site domain and can be used only for this domain name. If you need the API working on more that one web site, you should create another keys. To create the key, please navigate to [http://screenshot-program.com/fireshot/api_key.php FireShot API Key creation] page, fill in the domain name and press "Create". Copy the key and follow to the next step.
 
 == Embedding ==
 
