@@ -17,7 +17,7 @@ This page describes how to use FireShot API at your web pages.
 
 == Requirements ==
 
-To be able taking web page captures using javascript, the following stuff should be set up:
+To be able taking web page captures using javascript, the following stuff should be installed and set up:
 
   # Mozilla Firefox 2 or above (http://getfirefox.com)
   # FireShot addon for Firefox (http://screenshot-program.com/fireshot)
@@ -54,7 +54,7 @@ At the `<HEAD>` section of the web page add the following lines:
 
 
 
-Notice the key "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7" - this is a key you should have created previously.
+Notice the key "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7" - this is an example of key. You should insert your own key you've created in previous step.
 
 Now you can launch FireShot's functions using javascript events. The following methods are available:
 
