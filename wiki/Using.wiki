@@ -4,9 +4,9 @@
  
   * [#Introduction Introduction]
   * [#Requirements Requirements]
-  * [#Installing FireShot Installing_FireShot]
-  * [#Getting the library Getting_the_library]
-  * [#Getting API Key Getting_API_Key]
+  * [#Installing_FireShot Installing FireShot]
+  * [#Getting_the_library Getting the library]
+  * [#Getting_API_Key Getting API Key]
   * [#Embedding Embedding]
   * [#Examples Examples]
 
