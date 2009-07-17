@@ -56,18 +56,19 @@ At the `<HEAD>` section of the web page add the following lines:
 
 Notice the key "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7" - this is a key you should have created previously.
 
-Now you can launch FireShot's functions using JavaScript events. The following methods are available:
+Now you can launch FireShot's functions using javascript events. The following methods are available:
 
 {{{
 FireShotAPI.editPage(Entire);   // Capture web page (Entire = true for capturing the web page entirely) and *edit*
 FireShotAPI.savePage(Entire);   // Capture web page and *save to disk*
 FireShotAPI.copyPage(Entire);   // Capture web page and *copy to clipboard*
 FireShotAPI.emailPage(Entire);  // Capture web page and *EMail*
-FireShotAPI.exportPage(Entire); // Capture web page and *open it in third-party editor*
+FireShotAPI.exportPage(Entire); // Capture web page and *open it in a third-party editor*
 FireShotAPI.uploadPage(Entire); // Capture web page and *upload to free image hosting*
 FireShotAPI.printPage(Entire);  // Capture web page and *print*
 
 FireShotAPI.isAvailable();      // Check silently whether the addon is available at the client's PC, returns *true* if everything is OK. Otherwise returns *false*.
+
 FireShotAPI.checkAvailability() // Check whether the addon is available and display the message if required
 }}}
 
