@@ -10,6 +10,8 @@
   * [#Embedding Embedding]
   * [#Examples Examples]
 
+<wiki:toc max_depth="1" />
+
 == Introduction ==
 
 This page describes how to use FireShot API at your web pages. 
@@ -20,19 +22,35 @@ To be able taking web page captures using javascript, the following stuff should
 
   # Mozilla Firefox 2 or above (http://getfirefox.com)
   # FireShot addon (http://screenshot-program.com/fireshot)
-  # API Key ()
+  # API Key - this key is created and used for the domain you specify ()
 
 == Installing FireShot ==
 
-FireShot can be installed from FireShot's homepage at Mozilla. You need to open this link in [https://addons.mozilla.org/en-US/firefox/addon/5648 Firefox browser] and click "Add to Firefox" button. The installation should start. After installation completed please restart Firefox and make sure you're seeing the red button "S" at the top right corner:
+FireShot can be installed from FireShot's homepage at Mozilla. You need to open [https://addons.mozilla.org/en-US/firefox/addon/5648 this link] in Firefox browser and click "Add to Firefox" button. The installation should start. After installation completed please restart Firefox and make sure you're seeing the red button "S" at the top right corner:
  
 
 
 http://screenshot-program.com/images/tool_button_fx.gif
 
 == Getting the library ==
+
+The library can be downloaded from http://
+
 == Getting API Key ==
+
+The key is created for the web site domain and can be used only for this domain name. If you need the API working on more that one web site, you should create another keys. To create the key, please navigate to [http://sdf FireShot API Key creation] page, fill in the domain name and press "Create". Copy the key and follow to the next step.
+
 == Embedding ==
+
+Embedding is quick and simple. First of all, unpack the library script *fsapi.js* to the place you'll be using it from.
+
+At the `<HEAD>` section of the web page add the following lines:
+
+`<script type="text/javascript" src="fsapi.js"></script>`
+
+`<script>FireShotAPI.Key = "`*the copied key*`";</script>`
+
+
 == Examples ==
 
 
