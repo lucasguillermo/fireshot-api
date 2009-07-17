@@ -2,11 +2,11 @@
 
 == Contents ==
 
-  * Introduction
-  * Requirements
-  * Installing FireShot
-  * Getting API library
-  * Embedding
+  * [#Introduction Introduction]
+  * [#Requirements Requirements]
+  * [#Installing FireShot Installing_FireShot]
+  * [#Getting API library Getting_API_library]
+  * [#Embedding Embedding]
   * [#Examples Examples]
 
 == Introduction ==
