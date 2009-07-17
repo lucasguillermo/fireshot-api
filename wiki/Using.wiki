@@ -6,7 +6,7 @@
   * [#Requirements Requirements]
   * [#Installing_FireShot Installing FireShot]
   * [#Getting_the_library Getting the library]
-  * [#Getting_API_Key Getting API Key]
+  * [#Getting_the_API_Key Getting the API Key]
   * [#Embedding Embedding]
   * [#Examples Examples]
 
@@ -20,8 +20,8 @@ This page describes how to use FireShot API at your web pages.
 To be able taking web page captures using javascript, the following stuff should be set up:
 
   # Mozilla Firefox 2 or above (http://getfirefox.com)
-  # FireShot addon (http://screenshot-program.com/fireshot)
-  # API Key - this key is created and used for the domain you specify ()
+  # FireShot addon for Firefox (http://screenshot-program.com/fireshot)
+  # API Key - this key is created and used for the domain you specify (http://screenshot-program.com/fireshot/api_key.php)
 
 == Installing FireShot ==
 
@@ -35,7 +35,7 @@ http://screenshot-program.com/images/tool_button_fx.gif
 
 The library can be downloaded from http://
 
-== Getting API Key ==
+== Getting the API Key ==
 
 The key is created for the web site domain and can be used only for this domain name. If you need the API working on more that one web site, you should create another keys. To create the key, please navigate to [http://sdf FireShot API Key creation] page, fill in the domain name and press "Create". Copy the key and follow to the next step.
 
@@ -86,4 +86,22 @@ Or a simple link that sends the visible part of the page via e-mail:
 
 == Examples ==
 
-The examples available at http://sdfasdfsadf
+The example below sums up the information stated above:
+
+{{{
+<html>
+
+<head>
+<script type="text/javascript" src="fsapi.js"> </script>
+<script>FireShotAPI.Key = "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7";</script>
+</head>
+
+<body onload="FireShotAPI.checkAvailability()">
+<input type="button" onClick="FireShotAPI.uploadPage(true)" value="Capture and Upload this Page">
+</body>
+
+</html>
+
+}}}
+
+A more detailed example is available at http://screenshot-program.com/fireshot/api_demo.php
