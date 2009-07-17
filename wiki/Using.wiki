@@ -7,7 +7,7 @@
   * Installing FireShot
   * Getting API library
   * Embedding
-  * [WikiSyntax#Examples Examples]
+  * [#Examples Examples]
 
 == Introduction ==
 
