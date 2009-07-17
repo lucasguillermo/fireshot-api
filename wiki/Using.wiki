@@ -1,0 +1,26 @@
+#summary How to embed FireShot API into webpage
+
+== Contents ==
+
+  * Introduction
+  * Requirements
+  * Installing FireShot
+  * Getting API library
+  * Embedding
+  * [WikiSyntax#Examples Examples]
+
+== Introduction ==
+
+This page describes how to use FireShot API at your web pages. 
+
+== Requirements ==
+== Installing FireShot ==
+== Getting API library ==
+== Embedding ==
+== Examples ==
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
