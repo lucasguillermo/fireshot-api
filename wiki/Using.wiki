@@ -33,7 +33,7 @@ http://screenshot-program.com/images/tool_button_fx.gif
 
 == Getting the library ==
 
-The library can be downloaded from http://screenshot-program.com/downloads/fsapi.js
+The library can be downloaded from http://screenshot-program.com/dloads/fsapi.js
 
 == Getting the API Key ==
 
