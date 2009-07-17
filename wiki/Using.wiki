@@ -1,7 +1,7 @@
 #summary How to embed FireShot API into webpage
 
 == Contents ==
-
+ 
   * [#Introduction Introduction]
   * [#Requirements Requirements]
   * [#Installing FireShot Installing_FireShot]
@@ -10,8 +10,7 @@
   * [#Embedding Embedding]
   * [#Examples Examples]
 
-<wiki:toc max_depth="1" />
-
+ 
 == Introduction ==
 
 This page describes how to use FireShot API at your web pages. 
@@ -46,15 +45,44 @@ Embedding is quick and simple. First of all, unpack the library script *fsapi.js
 
 At the `<HEAD>` section of the web page add the following lines:
 
-`<script type="text/javascript" src="fsapi.js"></script>`
+{{{
+//The global variable FireShotAPI will be declared.
+<script type="text/javascript" src="fsapi.js"></script>
 
-`<script>FireShotAPI.Key = "`*the copied key*`";</script>`
+<script>FireShotAPI.Key = "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7";</script>
+}}}
 
+
+
+Notice the key "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7" - this is a key you should have created previously.
+
+Now you can launch FireShot's functions using JavaScript events. The following methods are available:
+
+{{{
+FireShotAPI.editPage(Entire);   // Capture web page (Entire = true for capturing the web page entirely) and *edit*
+FireShotAPI.savePage(Entire);   // Capture web page and *save to disk*
+FireShotAPI.copyPage(Entire);   // Capture web page and *copy to clipboard*
+FireShotAPI.emailPage(Entire);  // Capture web page and *EMail*
+FireShotAPI.exportPage(Entire); // Capture web page and *open it in third-party editor*
+FireShotAPI.uploadPage(Entire); // Capture web page and *upload to free image hosting*
+FireShotAPI.printPage(Entire);  // Capture web page and *print*
+
+FireShotAPI.isAvailable();      // Check silently whether the addon is available at the client's PC, returns *true* if everything is OK. Otherwise returns *false*.
+FireShotAPI.checkAvailability() // Check whether the addon is available and display the message if required
+}}}
+
+For example, let it be a button that uploads entire web page to free image hosting:
+
+{{{
+<input type="button" onClick="FireShotAPI.uploadPage(true)" value="Capture and Upload">
+}}}
+
+Or a simple link that sends the visible part of the page via e-mail:
+
+{{{
+<a href="#" onClick="FireShotAPI.emailPage(false); return false">Send visible part via e-mail</a>
+}}}
 
 == Examples ==
 
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The examples available at http://sdfasdfsadf
