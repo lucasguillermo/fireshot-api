@@ -6,7 +6,6 @@
   * [#Requirements Requirements]
   * [#Installing_FireShot Installing FireShot]
   * [#Getting_the_library Getting the library]
-  * [#Getting_the_API_Key Getting the API Key]
   * [#Embedding Embedding]
   * [#Examples Examples]
 
@@ -20,8 +19,7 @@ This page describes how to use FireShot API at your web pages.
 To be able taking web page captures using javascript, the following stuff should be installed and set up:
 
   # Mozilla Firefox 2 or above (http://getfirefox.com)
-  # FireShot addon for Firefox (http://screenshot-program.com/fireshot)
-  # API Key - this key is created and used for the domain you specify (http://screenshot-program.com/fireshot/api_key.php)
+  # FireShot addon (v. 0.91 and higher) for Firefox (http://screenshot-program.com/fireshot)
 
 == Installing FireShot ==
 
@@ -35,9 +33,6 @@ http://screenshot-program.com/images/tool_button_fx.gif
 
 The library can be downloaded from http://screenshot-program.com/dloads/fsapi.js
 
-== Getting the API Key ==
-
-The key is created for the web site domain and can be used only for this domain name. If you need the API working on more that one web site, you should create another keys. To create the key, please navigate to [http://screenshot-program.com/fireshot/api_key.php FireShot API Key creation] page, fill in the domain name and press "Create". Copy the key and follow to the next step.
 
 == Embedding ==
 
@@ -48,15 +43,9 @@ At the `<HEAD>` section of the web page add the following lines:
 {{{
 //The global variable FireShotAPI will be declared.
 <script type="text/javascript" src="fsapi.js"></script>
-
-<script>FireShotAPI.Key = "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7";</script>
 }}}
 
-
-
-Notice the key "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7" - this is an example of key. You should insert your own key you've created in previous step.
-
-Now you can launch FireShot's functions using javascript events. The following methods are available:
+Now you can launch FireShot's functions. The following methods are available:
 
 {{{
 FireShotAPI.editPage(Entire);   // Capture web page (Entire = true for capturing the web page entirely) and *edit*
@@ -93,7 +82,6 @@ The example below sums up the information stated above:
 
 <head>
 <script type="text/javascript" src="fsapi.js"> </script>
-<script>FireShotAPI.Key = "OS1N9B2IR421O2JQEUEFRR2L7TD36GC6JBO0NKP7";</script>
 </head>
 
 <body onload="FireShotAPI.checkAvailability()">
