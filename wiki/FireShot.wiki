@@ -1,5 +1,5 @@
 #summary FireShot features description.
-#labels Design,FireShot,Capturing,Prototyping,Annotation
+#labels Design,FireShot,Capturing,Prototyping,Annotation,ScreenCapture,Screenshot
 
 = Introduction =
 
