@@ -12,10 +12,10 @@ The plugin provides a set of editing and annotation tools, which let users quick
 The captures can be:
 
   * uploaded to FREE public screenshot hosting
-  * saved to disk (PNG, GIF, JPEG, BMP)
+  * saved to disk (PNG, GIF, JPEG, BMP, PDF)
   * printed
   * copied to clipboard
   * e-mailed
   * sent to configurable external editor for further processing. 
 
-The additional information is available at: http://screenshot-program.com/fireshot
+The additional information is available at: http://getfireshot.com
